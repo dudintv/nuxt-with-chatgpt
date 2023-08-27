@@ -92,9 +92,8 @@ watch(
 }
 
 .placeholder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   flex-grow: 1;
   color: rgba(36, 94, 146, 0.1);
   font-size: 3rem;
